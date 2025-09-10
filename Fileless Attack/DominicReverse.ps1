@@ -1,6 +1,6 @@
 param(
   [string]$RemoteHost  = "10.10.36.245",  # 接收端 IP
-  [int]   $RemotePort  = 443,            # 接收端 Port
+  [int]   $RemotePort  = 4444,            # 接收端 Port
   [string]$SniHost     = "example.com",  # SNI/目標主機名（測試用）
   [int]   $IntervalSec = 5               # 心跳間隔秒數
 )
