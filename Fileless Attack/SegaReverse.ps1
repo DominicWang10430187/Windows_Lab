@@ -1,5 +1,5 @@
 # 設定目標 IP 與 Port
-$RemoteHost = "10.10.36.245"
+$RemoteHost = "10.10.36.4"
 $RemotePort = 4444
 
 try {
