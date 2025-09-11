@@ -1,6 +1,6 @@
 # 設定目標 IP 與 Port
 $RemoteHost = "10.10.36.4"
-$RemotePort = 4444
+$RemotePort = 443
 
 try {
     # 建立 TcpClient 並嘗試連線
